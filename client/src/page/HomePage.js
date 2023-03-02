@@ -49,7 +49,12 @@ const HomePage = () => {
   return (
     <>
       <h1>This is Home Page!</h1>
+      <div>
+      <Link to="/wheel">Got to Wheel</Link>
+      </div>
+      <div>
       <Link to="/scratch">Got to Scratch</Link>
+      </div>
       <div className="container">
         <div className="arrow">x-</div>
         <div className="content" onClick={rotateHandler}>

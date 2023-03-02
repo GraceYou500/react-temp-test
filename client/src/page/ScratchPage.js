@@ -1,16 +1,14 @@
-import React from "react";
+import React from 'react'
 
 const ScratchPage = () => {
   return (
-    // <div>
-    //   <canvas id="canvas" width={650} height={656} />
-    // </div>
-    <div className="wrapper">
-      <div className="inner-content">
-        <div className="wheel">Wheel</div>
-        <div className="info">Info</div>
-      </div>
-    </div>
-  );
-};
-export default ScratchPage;
+        <div className="wrapper">
+          <div className="inner-content">
+            <div className="scratch-wrapper">Scratch machine</div>
+            <div className="scratch-info">Info</div>
+          </div>
+        </div>
+      );
+}
+
+export default ScratchPage
